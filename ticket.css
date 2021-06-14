@@ -1,0 +1,173 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgba(225, 228, 255, 1);
+}
+/* navbar */
+.navbar {
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    z-index: 3;
+    padding-top:0px;
+    padding-bottom: 0px;
+  }
+  
+  nav {
+    flex:1;
+    text-align: right;
+  }
+  
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .MenuItems{
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .mainheader {
+    background: #2C326B;
+    width: 100%;
+    left: 0px;
+  
+  }
+  
+  .menu-icon{
+    display: none;
+  }
+  .MenuItems{
+    margin-right: 1rem;
+    color: white;
+  }
+  .MenuItems li a{
+    color: #fff
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  /* akhir navbar */
+/* footer */
+.page-footer {
+    background-color: #12152c;
+    color: #ccc;
+    padding: 30px 0 10px;
+    position: relative;
+    left: 0px;
+
+}
+.page-footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 252px;
+    height: 70px;
+    left: -10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 14px;
+    color: #FFFFFF; 
+}
+a:link, a:visited{
+  color:white;
+  padding: 4px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+a:hover, a:active{
+  color: rgb(101, 237, 255);
+}
+.content p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+.content{
+    width: 500px;
+    margin: 0 400px 30px 400px;
+}
+.page-footer{
+    margin-top: 200px;
+}
+/* akhir footer */
+.bg {
+    margin:50px;
+    box-shadow: 0 0 20px 0 rgb (0 0 0 / 10%);
+}
+.form-heading {
+    text-align: center;
+}
+.bg .col-md-4{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 30px;
+    margin-top: 50px;
+}
+@media only screen and (max-width: 800px) {
+    nav ul {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background: #333;
+      width: 100%;
+      overflow: hidden;
+      transition: max-height 0.75s;
+      z-index: 2;
+    }
+    nav ul li {
+      display: block;
+      margin-right: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    nav ul li a {
+      color: #fff;
+    }
+    a:link, a:visited{
+      font-size: 15px;
+    }
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+      z-index: 1;
+      }
+      .description h1 {
+      font-size: 2em;
+      }
+      .description p {
+      font-size: 1.2rem;
+      }
+      .features {
+      margin: 0;
+      }
+      .description h3{
+          left: 0;
+          position: relative;
+          text-align: center;
+      }
+      .content p{
+        top: 70px;
+      }
+      .logo img{
+        height: 60px;
+      }
+  }
+  /* akhir responsive */

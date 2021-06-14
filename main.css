@@ -1,0 +1,297 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: rgba(225, 228, 255, 1);
+
+}
+/* navbar */
+.navbar {
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 10px;
+  z-index: 3;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+nav {
+  flex:1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.MenuItems{
+  color: #fff;
+  cursor: pointer;
+}
+.mainheader {
+  background: #2C326B;
+  width: 100%;
+  left: 0px;
+
+}
+
+.menu-icon{
+  display: none;
+}
+.MenuItems{
+  margin-right: 1rem;
+  color: white;
+}
+.MenuItems li a{
+  color: #fff
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+/* akhir navbar */
+.header {
+  background-image: url('images/image1.jpg');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height: 100vh;
+  z-index: 1;
+}
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.description{
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+  color: white;
+}
+.description h1 {
+  color: white;
+  font-size: 70px;
+  font-family: pt serif;
+}
+.description p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.button {
+  border: 1px solid #2C326B;
+  background: #2C326B;
+  color: #fff;
+  padding: .75rem 2.5rem;
+  border-radius: .5rem;
+  font-family:pt serif;
+  font-size: 20px;
+  
+}
+.button:hover {
+  color: #000;
+}
+.description h3{
+  position: absolute;
+  font-family: PT Serif Caption;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #FFFFFF;
+  left: -40%;
+  text-align: left;
+}
+/* content */
+.content .card{
+  top: 750px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  position: absolute;
+  align-content: center;
+  width: auto;
+}
+
+.card h1{
+  position: relative;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: PT Serif Caption;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  color: #262472;
+}
+.card ul li {
+  position: relative;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: PT Serif Caption;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.features{
+  margin-top: 30px;
+}
+.card{
+  margin:30px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+
+}
+.features p{
+  position: relative;
+  width: 203px;
+  height: 30.61px;
+  left: 952px;
+  margin:10px;
+  font-family: PT Serif Caption;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.content .card{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+/*.akhir content */
+.page-footer {
+  background-color: #12152c;
+  color: #ccc;
+  padding: 30px 0 10px;
+  position: relative;
+  left: 0px;
+  margin-top: 1700px;
+
+}
+.page-footer p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 252px;
+  height: 60px;
+  left: -10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 14px;
+  color: #FFFFFF; 
+}
+a:link, a:visited{
+  color:white;
+  padding: 4px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+a:hover, a:active{
+  color: rgb(101, 237, 255);
+}
+.description a:link{
+  padding:10px 30px !important;
+}
+/* Responsive */
+/* content tambahan */
+img-fluid {
+  width: 350px !important;
+  height: auto;
+}
+.card .row p{
+    position: relative;
+    width: 203px;
+    height: 30.61px;
+    margin:10px;
+    font-family: PT Serif Caption;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+/* akhir content tambahan */
+@media only screen and (max-width: 800px) {
+  nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #333;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.75s;
+    z-index: 2;
+  }
+  nav ul li {
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  nav ul li a {
+    color: #fff;
+  }
+  a:link, a:visited{
+    font-size: 15px;
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+    text-align: center;
+    z-index: 1;
+    }
+    .description h1 {
+    font-size: 2em;
+    }
+    .description p {
+    font-size: 1.2rem;
+    }
+    .features {
+    margin: 0;
+    }
+    .description h3{
+        left: 0;
+        position: relative;
+        text-align: center;
+    }
+    .header{
+      background-image: url('images/image1.jpg');
+      height: 600px;
+    }
+    .content .card{
+      top: 700px;
+      margin-top: 20px;
+      background-color: white;
+      position: absolute;
+      align-content: center;
+      width: auto;
+    }
+    .page-footer{
+      top:1000px;
+    }
+    .logo img{
+      height: 60px;
+    }
+}
+/* akhir responsive */

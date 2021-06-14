@@ -1,0 +1,182 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgba(225, 228, 255, 1);
+}
+/* navbar */
+.navbar {
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    z-index: 3;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  nav {
+    flex:1;
+    text-align: right;
+  }
+  
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .MenuItems{
+    color: #fff;
+    cursor: pointer;
+  }
+  .mainheader {
+    background: #2C326B;
+    width: 100%;
+    left: 0px;
+  
+  }
+  
+  .menu-icon{
+    display: none;
+  }
+  .MenuItems{
+    margin-right: 1rem;
+    color: white;
+  }
+  .MenuItems li a{
+    color: #fff
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  /* akhir navbar */
+.content .card{
+    max-width: 50%;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+.content h1{
+    /* Profile */
+    position: relative;
+    width: 100px;
+    height: 40px;
+    font-family: PT Serif Caption;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    margin-left: 69px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.content p{
+    top: 100px;
+    margin-top: 10px;
+    font-family: PT Serif Caption;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    text-indent: 5px;
+    margin-left: 69px;
+    margin-right: 69px;
+}
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+.page-footer {
+    background-color: #12152c;
+    color: #ccc;
+    padding: 30px 0 10px;
+    position: relative;
+    left: 0px;
+
+}
+.page-footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 252px;
+    height: 70px;
+    left: -10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 14px;
+    color: #FFFFFF; 
+}
+a:link, a:visited{
+    color:white;
+    padding: 4px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active{
+    color: rgb(101, 237, 255);
+}
+/* responsive */
+@media only screen and (max-width: 800px) {
+    nav ul {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background: #333;
+      width: 100%;
+      overflow: hidden;
+      transition: max-height 0.75s;
+      z-index: 2;
+    }
+    nav ul li {
+      display: block;
+      margin-right: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+    nav ul li a {
+      color: #fff;
+    }
+    a:link, a:visited{
+      font-size: 15px;
+    }
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+      z-index: 1;
+      }
+      .description h1 {
+      font-size: 2em;
+      }
+      .description p {
+      font-size: 1.2rem;
+      }
+      .features {
+      margin: 0;
+      }
+      .description h3{
+          left: 0;
+          position: relative;
+          text-align: center;
+      }
+      .content p{
+        top: 70px;
+      }
+      .logo img{
+        height: 60px;
+      }
+  }
+  /* akhir responsive */
