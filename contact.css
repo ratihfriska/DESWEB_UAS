@@ -81,7 +81,6 @@ a:link, a:visited{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
 }
 a:hover, a:active{
   color: rgb(101, 237, 255);

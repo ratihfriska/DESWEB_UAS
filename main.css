@@ -198,7 +198,6 @@ a:link, a:visited{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
 }
 a:hover, a:active{
   color: rgb(101, 237, 255);
@@ -246,6 +245,15 @@ img-fluid {
     color: #fff;
   }
   a:link, a:visited{
+    font-size: 15px;
+  }
+  .card ul li{
+    font-size: 15px;
+  }
+  .card h1{
+    font-size: 20px;
+  }
+  .card .row p{
     font-size: 15px;
   }
   .menu-icon {
